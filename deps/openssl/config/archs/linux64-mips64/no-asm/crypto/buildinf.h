@@ -11,7 +11,11 @@
  */
 
 #define PLATFORM "platform: linux64-mips64"
+<<<<<<< HEAD
 #define DATE "built on: Wed Mar 18 21:09:46 2020 UTC"
+=======
+#define DATE "built on: Tue Apr 21 13:30:07 2020 UTC"
+>>>>>>> c2f4a6bc17... deps: update archs files for OpenSSL-1.1.1g
 
 /*
  * Generate compiler_flags as an array of individual characters. This is a

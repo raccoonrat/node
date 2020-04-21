@@ -111,8 +111,13 @@ our %config = (
   sourcedir => ".",
   target => "BSD-x86",
   tdirs => [ "ossl_shim" ],
+<<<<<<< HEAD
   version => "1.1.1e",
   version_num => "0x1010105fL",
+=======
+  version => "1.1.1g",
+  version_num => "0x1010107fL",
+>>>>>>> c2f4a6bc17... deps: update archs files for OpenSSL-1.1.1g
 );
 
 our %target = (
@@ -7413,6 +7418,7 @@ our %unified_info = (
                 [
                     ".",
                     "include",
+                    "crypto/modes",
                 ],
             "crypto/rand/drbg_lib.o" =>
                 [
@@ -15447,3 +15453,4 @@ Verbose output.
 =back
 
 =cut
+
